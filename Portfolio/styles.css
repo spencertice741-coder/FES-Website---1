@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+* {
+    font-family:  'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ span {
+    color: lightskyblue;
+ }
+
+ html {
+    scroll-behavior: smooth;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+    color: black;
+    text-align: center;
+    line-height: 1.25;
+ }
+
+ p {
+    line-height: 1.5;
+    font-size: 16px;
+ }
+
+ li {
+    list-style-type: none;
+ }
+
+ .flex {
+    display: flex;
+ }
+
+ .flex1 {
+    flex: 1;
+ }
+
+ .row {
+    width:100%;
+    max-width: 800px;
+    margin: 0 auto;
+ }
+
+ .text--purple {
+    color: lightskyblue;
+ }
+
+ /* NAVIGATION BAR */
+ul{
+    display:block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+ nav {
+    height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .nav__link--list {
+    display: flex;
+    text-align: center;
+ }
+
+ .nav__link--anchor {
+    margin: 0 12px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+ }
+
+ .nav__link--anchor-primary {
+    background-color: lightskyblue;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: white;
+ }
+
+ .nav__link--anchor-primary:hover {
+    background-color: rgb(166, 218, 251);
+ }
+
+ .personal__logo {
+    font-size: 24px;
+    color: lightskyblue;
+    margin: 0 12px;
+    font-weight: bold;
+ }
+
+ /* About Me */
+
+ #about-me {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .about-me__info--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .about-me__picture--mask {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 8px 16px black;
+    margin-bottom: 28px;
+ }
+
+ .about-me__picture {
+    width: 100%;
+
+}
+
