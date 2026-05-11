@@ -237,11 +237,12 @@ ul{
     flex: 1;
     display:flex;
     align-items: center;
+    justify-content: center;
 }
 
 .about-me__img {
-    width: 100%;
-    scale: 75%;
+    width: 60%;
+    scale: 60%;
     animation: fade-in 1200ms800ms backwards;
 }
 
