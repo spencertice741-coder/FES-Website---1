@@ -241,6 +241,7 @@ ul{
 
 .about-me__img {
     width: 100%;
+    scale: 75%;
     animation: fade-in 1200ms800ms backwards;
 }
 
